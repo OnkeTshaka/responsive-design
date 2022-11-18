@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 3.75em;
+    background: #111;
+    color:#fff;
+    align-items: center;
+    max-width:100%;
+    top:0;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0 1em;
+    align-items: center;
+}
+
+ul>li{
+    margin: 0 0.5em;
+}
+ul>li:hover{
+    transform: translateY(-10px);
+}

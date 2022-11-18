@@ -1,0 +1,15 @@
+.features{
+    background-color: #ffffff;
+    color:#000000;
+}
+
+.feature{
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.feature feImage{
+    width: 40%;
+ 
+}

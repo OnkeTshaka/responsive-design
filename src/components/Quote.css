@@ -1,0 +1,29 @@
+.quote{
+    background: #549da0;
+    color:#fff;
+}
+
+blockquote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+blockquote p {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+
+}
+
+blockquote cite {
+   font-style: italic;
+    font-size: 16px;
+    
+}
+
+blockquote cite:before {
+    content: '-';
+    margin-right: 5px;
+     
+ }
