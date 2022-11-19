@@ -6,7 +6,7 @@ import Alert from '../assets/alert-circle.svg'
 const Features = () => {
   return (
     <section className="features">
-        <div className="container">
+        <div className="container-flex">
 
           <div className="feature">
             <img src={Pin} alt="" />

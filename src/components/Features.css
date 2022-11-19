@@ -4,12 +4,39 @@
 }
 
 .feature{
-    width: 32%;
+    width:32%;
     display: inline-block;
     font-size: 16px;
 }
 
-.feature feImage{
+.feature img{
     width: 40%;
- 
+}
+
+@media screen and (max-width:480px){
+    .feature{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: 0 0 10px;
+        font-size: 16px;
+    }
+    
+    .feature img{
+        width: 15%;
+        min-width: 60px;
+        margin-right: 20px;
+     
+    }
+    
+    .container-flex{
+        display:flex;
+        align-items: stretch;
+    }
+    
+    .container-flex div{
+        flex:1;
+    }
 }

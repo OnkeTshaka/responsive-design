@@ -5,6 +5,14 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive design</title>
+    <script src="/src/assets/js/jquery-3.4.1.min.js"></script>
+    <script>
+      $(function(){
+        $(".btn").click(function(){
+          $(".submenu").slideToggle(600);
+        })
+      })
+    </script>
   </head>
   <body>
     <div id="root"></div>
